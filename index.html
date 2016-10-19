@@ -36,12 +36,33 @@ background-color: black;
 padding: 5px;
 }
 
-p.htxt {
+p.header {
 font-size: 24px;
 font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 text-align: center;
 color: white;
 }
+
+/* START NAVIGATION */
+
+navi {
+width: 150px;
+margin-align: left;
+margin: 5px;
+padding: 5px;
+border: 1px;
+border-color: black;
+border-style: solid;
+}
+
+p.navi {
+font-size: 10px;
+color: black;
+font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+text-align: center;
+letter-spacing: 1px;
+}
+
 
 
 /* START SIDEBAR */
@@ -51,13 +72,12 @@ width: 150px;
 margin-align: left;
 margin: 5px;
 padding: 5px;
-position: fixed;
 border: 1px;
 border-color: black;
 border-style: solid;
 }
 
-p.stxt {
+p.side {
 font-size: 10px;
 color: black;
 font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
@@ -69,10 +89,13 @@ text-align: center;
     </style>
 <body>
 <header>
-<p class="htxt"> sherbet's hideout !</p>
+<p class="header"> sherbet's hideout !</p>
 </header>
+<navi>
+<p class="navi"> home</p>
+</navi>
 <sidebar>
-<p class="stxt"> this is just a test, i repeat, just a test. sherbets new home page! welcome!</p>
+<p class="side"> this is just a test, i repeat, just a test. sherbets new home page! welcome!</p>
 </sidebar>
 </body>
 </html>
